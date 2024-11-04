@@ -30,7 +30,6 @@ const fetchProducts = async () => {
       }
       return item;
     });
-    console.log(updatedProducts);
 
     return updatedProducts;
   }
